@@ -28,3 +28,17 @@ var sa = document.getElementsByClassName("btn btn-sm btn-outline-secondary")[0];
 sa.addEventListener('click', function(){
     sarace.style = "color: red";
 });
+
+//edit 2
+var sarice = document.getElementsByClassName("card mb-4 box-shadow")[1];
+
+var sau = document.getElementsByClassName("btn btn-sm btn-outline-secondary")[1];
+
+sau.addEventListener('click', function(){
+    if (sarice.style.color === 'green') {
+        sarice.style = "color: ";
+    }
+    else {
+        sarice.style = "color: green";
+    }
+});
